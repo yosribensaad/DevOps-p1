@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Check Versions of Tools') {
+        stage('Check git version and READ.me content') {
             steps {
                 echo 'Checking Git version...'
                 sh 'git --version'
