@@ -6,6 +6,7 @@ pipeline {
                 echo 'Checking Git version...'
                 sh 'git --version'
                 sh 'ls'
+                sh 'cat RREADME.md'
             }
         }
     }
